@@ -1,2 +1,2 @@
 <?php
-echo "Hello PHP";
+echo "こんにちは";
