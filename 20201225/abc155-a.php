@@ -17,3 +17,6 @@ function check(){
     echo "All Passed!!!";
     
 }
+
+check();
+?>
