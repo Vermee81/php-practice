@@ -10,7 +10,7 @@ function check(){
         echo "Error in check1.";
         return;
     }
-    if (printEve(25) != "Christmas Eve Eve Eve") {
+    if (printEve(22) != "Christmas Eve Eve Eve") {
         echo "Error in check2.";
         return;
     }
