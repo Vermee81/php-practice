@@ -3,8 +3,7 @@
 function calculate_area($ab, $bc, $ca){
     // 問題文はこちらです
     // https://atcoder.jp/contests/abc116/tasks/abc116_a
-    
-    return 6;
+    return $ab*$bc/2;
 }
 
 function check(){
