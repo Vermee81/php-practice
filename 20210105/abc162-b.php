@@ -2,8 +2,13 @@
 function fizzbuzz_calc($N){
     // 問題はこちら
     // https://atcoder.jp/contests/abc162/tasks/abc162_b
-    
-    return 60; 
+    $value=0;
+    for($i=0; $i<=$N; $i++){
+        if($i % 3 !=0 && $i % 5 !=0){
+            $value = $value + $i;
+        }
+    }
+    return $value; 
 }
 
 function check(){
