@@ -46,5 +46,6 @@ function check()
         echo "Check 3 is wrong.";
         return;
     }
+    echo "All Passed!!!";
 }
 check();
