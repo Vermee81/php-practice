@@ -2,9 +2,9 @@
 
 /**
  * ABC124-bの問題をテストする
- * 
+ *
  * PHP Version 7.3.11
- * 
+ *
  * @category Example
  * @package  None
  * @author   Vermee81 <hrksb5029@gmail.com>
@@ -17,7 +17,7 @@
  *
  * @param integer $N       旅館の数
  * @param array   $heights 旅館の高さ
- * 
+ *
  * @return integer       海が見える旅館の数
  */
 function countOceanView(int $N, array $heights)
@@ -32,7 +32,7 @@ function countOceanView(int $N, array $heights)
  *
  * @return void
  */
-function check() 
+function check()
 {
     if (countOceanView(4, [6,5,6,8]) != 3) {
         echo "Check 1 is wrong.";
