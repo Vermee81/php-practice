@@ -24,7 +24,16 @@ function countOceanView(int $N, array $heights)
 {
     // 問題はこちらです
     // https://atcoder.jp/contests/abc124/tasks/abc124_b
-    return 3;
+    
+    $highest = $heights[0];
+    $count = 0;
+    foreach ($heights as $h) {
+        if ($highest <= $h) {
+            $count++;
+            $highest = $h;
+        }
+    }
+    return $count;
 }
 
 /**
@@ -49,3 +58,4 @@ function check()
     echo "All Passed!!!";
 }
 check();
+?>
